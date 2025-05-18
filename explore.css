@@ -1,0 +1,82 @@
+/*Styling for the body of the webpage*/
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e95f72;
+  color: #801e45; 
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation Bar styling*/
+nav {
+  background-color: #fdeaea;
+  padding: 17px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #d81b60;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  
+}
+
+nav li a:hover {
+  background-color: #f8bbd0;
+}
+
+/*Styling for the headings and paragraphs*/
+h1, h2 {
+  color: #c2185b;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3,p{
+    text-align: center;
+}
+
+/*Styling for the video*/
+.explore-video {
+  max-width: 850px;
+  margin: 32px auto;
+  padding: 22px;
+  background-color: #ffcedf;
+  border-radius: 12px;
+  border-style: solid;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+/*Box and image style*/
+.stories,.events {
+  max-width: 700px;
+  margin: 46px auto;
+  padding: 20px;
+  background-color: #ffcedf;
+  border-radius: 12px;
+  border-style: solid;
+}
+
+.story img {
+  width: 600px; height: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
