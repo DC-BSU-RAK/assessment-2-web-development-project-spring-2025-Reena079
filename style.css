@@ -1,0 +1,82 @@
+/*Body styling*/
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e65165;
+  color: #ebbebe;
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation Bar styling*/
+nav {
+  background-color: #fdeaea;
+  padding: 14px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #d81b60;
+  padding: 10px;
+  border-radius: 6px;
+}  
+
+nav li a:hover {
+  background-color: #f8bbd0;
+}
+
+/*Heading and paragraph styling*/
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+h2,p{
+  margin-left: 20px;
+}
+
+/*Social media icons*/
+.social a {
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.social img {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+}
+
+/*Styling for the buttons*/
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6f91;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/*Style for the image*/
+.img-right img {
+  float: right;
+  width: 600px;
+  height: 800px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+/*Margin and alignment for the footer*/
+footer{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
